@@ -1,0 +1,73 @@
+*{
+    margin: 0; padding: 0;
+}
+button{
+    margin-top: 20px;
+}
+.produts{
+    padding: 5px;
+
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+.products-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.product{
+    padding-top: 20px;
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+    background: grey;
+    
+}
+.form-wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+#form{
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+#post-wrapper .newPost{
+    background: #f0f0f0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  
+    
+}
+.newpost-animate {
+    animation-name: example;
+    animation-duration: 4s;
+}
+#post-wrapper div button{
+    margin: 8px 10px 8px 0;
+}
+#post-wrapper p{
+    margin: 5px 0 5px 10px;
+}
+.wrap-btn{
+    display: none;
+}
+.textWrapper{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
